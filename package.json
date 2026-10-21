@@ -1,0 +1,18 @@
+{
+  "name": "pdf-report-generator",
+  "version": "1.0.0",
+  "description": "PDF report generator built with Express, SQLite, and Playwright",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node seed.js"
+  },
+  "keywords": ["pdf", "report", "sqlite", "express"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "playwright": "^1.55.0"
+  }
+}
